@@ -1,0 +1,146 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: whitesmoke;
+    }
+    
+    
+    /* Sidebar */
+    .sidebar {
+    position: fixed;
+    /* background: linear-gradient(to right bottom,rgb(0 84 166 / 79%) 12.85%, rgb(0 84 166 / 44%) 113.8%); */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    padding: 58px 0 0; /* Height of navbar */
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%);
+    width: 240px;
+    z-index: 600;
+    }
+   
+    #list{
+    background: rgb(208, 208, 231);
+    }
+    .f-btns
+    {
+color:  rgb(0 84 166 / 79%);
+text-decoration: none;
+    }
+
+   
+    #loginimg:hover  {
+cursor: pointer;
+    }
+    .sidebar .active {
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    }
+    
+    .sidebar-sticky {
+    position: relative;
+    top: 0;
+    height: calc(100vh - 48px);
+    padding-top: 0.5rem;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+    }
+
+
+    .logo1
+{
+    height: 1vh;
+    margin-top: -5vh;
+    margin-bottom: 2vh;
+}
+
+#items{
+    text-decoration: none;
+    color: #133e75!important;
+
+}
+#items :hover{
+    
+    color: lightblue;
+
+}
+
+.search
+{
+    margin-left: 20vw;
+    margin-top: 0.5vh;
+    background-color: #e7e2e2;
+    border-radius: 8px;
+}
+.main
+{
+    
+    padding-left: 17vw;
+    background-color: whitesmoke;
+}
+.chartmain{
+    padding-left: 19vw;
+    background-color: whitesmoke;
+
+}
+
+.row
+{
+    width: 82vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+.map
+{
+    width: 81vw;
+    height: 85vh;
+}
+
+.logout{
+    margin-right: 2vw;
+}
+
+#sidebar{
+    background:  linear-gradient(to right bottom,rgb(0 84 166 / 79%) 12.85%, rgb(0 84 166 / 44%) 113.8%);
+    height: 20vh;
+}
+
+#position{
+    margin-left: -49vw;
+    color: white;
+    
+   
+}
+
+
+
+.headcontainer{
+    padding-top: 5vh;
+    background-color: whitesmoke;
+    height: 20vh;
+}
+
+
+
+.cardcontainer{
+    padding-left: 17vw;
+    background-color: whitesmoke;
+    height: 15vh;
+   
+}
+
+
+.card{
+    width: 16vw;
+    height: 10vh;
+    padding: 13px;
+    background-color: #133e75;
+}
+
+.card-title{
+    color: #133e75!important;
+}
